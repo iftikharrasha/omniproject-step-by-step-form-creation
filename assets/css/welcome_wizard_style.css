@@ -1,0 +1,282 @@
+/* ==============================================================
+		wizards style starts
+============================================================== */
+
+/**typography**/
+.focus-none {
+	outline: none;
+}
+
+.bold-60 {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.bold-41 {
+	font-size: 41px;
+	font-weight: 700;
+}
+
+.semi-25 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.semi-35 {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.semi-14 {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.med-25 {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.med-19 {
+	font-size: 19px;
+	font-weight: 500;
+}
+
+.reg-18 {
+	font-size: 18px;
+}
+
+.reg-19 {
+	font-size: 19px;
+}
+
+.reg-11 {
+	font-size: 11px;
+	font-weight: 400 !important;
+}
+
+/**font colors**/
+.c-tag-1 {
+	color: #4c4ce0 !important;
+}
+
+.c-tag-2 {
+	color: #98a6ad !important;
+}
+
+.c-tag-3 {
+	color: #59d092 !important;
+}
+
+.c-tag-4 {
+	color: #323a45 !important;
+}
+
+.c-tag-5 {
+	color: #6457da !important;
+}
+
+.c-tag-6 {
+	color: #ffe9c2 !important;
+}
+
+/**background colors**/
+.bg-tag-1 {
+	background-color: #59d092 !important;
+}
+
+.bg-tag-1:hover {
+	background-color: #6457da !important;
+}
+
+.bg-tag-2 {
+	background-color: #eaeff2 !important;
+}
+
+.bg-tag-3 {
+	background-color: #6457da !important;
+}
+
+.bg-tag-3:hover {
+	background-color: #59d092 !important;
+}
+
+.bg-tag-4 {
+	background-color: #e3e3e3 !important;
+}
+
+.bg-tag-5 {
+	background-color: transparent !important;
+	border: 1px solid #6457da !important;
+}
+
+.bg-tag-6 {
+	background-color: #eae6ff !important;
+}
+
+.bg-tag-7 {
+	background-color: #feedce !important;
+}
+/**cards**/
+.card-border {
+	border: 1px solid #70707042 !important;
+	border-radius: 1rem !important;
+}
+
+.top-card-img-1 {
+	width: 75%;
+	margin-top: 40px;
+}
+
+.dash-card-img-1 {
+	width: 60%;
+}
+
+.dash-card-img-2 {
+	width: 18%;
+}
+
+.card-ecom {
+	min-height: 218px !important;
+}
+
+.social-links {
+	padding-inline-start: 0;
+}
+
+/**form steps**/
+.form-steps {
+	border: 1px solid #70707042;
+	border-radius: 10px;
+	margin: 20px 0 30px;
+	padding: 50px 0;
+}
+
+#step-one {
+	-webkit-animation: fadeIn .5s;
+	animation: fadeIn .5s;
+}
+
+#step-two {
+	display: none;
+	-webkit-animation: fadeIn .5s;
+	animation: fadeIn .5s;
+}
+
+#step-three {
+	display: none;
+	-webkit-animation: fadeIn .5s;
+	animation: fadeIn .5s;
+}
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.steps-container .steps {
+	width: 33.33%;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	margin: 0 0 30px;
+}
+
+.steps-container .steps .step-bar {
+	-webkit-border-radius: 50% !important;
+	-moz-border-radius: 50% !important;
+	-ms-border-radius: 50% !important;
+	border-radius: 50% !important;
+	background: #f26d80;
+	display: inline-block;
+	height: 42px;
+	width: 42px;
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+	padding-top: 7px;
+	font-size: 20px;
+}
+
+.steps-container .steps .progress-bar {
+	position: absolute;
+	height: 5px;
+	background: #f26d80;
+	width: 16.67%;
+	left: 1%;
+	bottom: 69%;
+	z-index: -1;
+}
+
+.steps-container .steps .bar-two {
+	width: 50%;
+}
+
+.steps-container .steps .bar-three {
+	width: 81.50%;
+}
+
+.steps-container .step-ecom {
+	width: 55%;
+}
+
+.steps-container .step-ecom .bar-ecom {
+	width: 70%;
+	bottom: 60%;
+}
+
+.steps-container .step-ecom .ecom-one {
+	width: 27%;
+}
+
+.intro {
+	width: 100%;
+}
+
+/**customers**/
+.form-select {
+	display: block;
+	width: 100%;
+	padding: .375rem 2.25rem .375rem .75rem;
+	background-image: url(../images/welcome_page/dropdown.svg);
+	background-repeat: no-repeat;
+	background-position: right .75rem center;
+	background-size: 16px 12px;
+	border: none;
+	border-bottom: 1px solid #98a6ad;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.has-search .form-control {
+	padding-left: 3.375rem;
+	border-radius: 2.2rem;
+	padding: 1.45rem 3.9rem;
+}
+
+.has-search .form-control-feedback {
+	position: absolute;
+	margin-left: 1.375rem;
+	margin-top: .4rem;
+	z-index: 2;
+	display: block;
+	width: 2.375rem;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	text-align: center;
+	pointer-events: none;
+	color: #98a6ad;
+}
